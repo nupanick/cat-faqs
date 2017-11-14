@@ -9,12 +9,13 @@ I am making this guide because I was having trouble finding a good one. When I s
 Also, for those of you who know what these words mean, I'll be using HTML, CSS, JavaScript, PHP, and Apache. I know these tools are "old" now, but they're what the web was built on so I'm convinced they're worth learning.
 
 ## Overview
-The two main parts of a website are called the client and the server. The **client** is everything that visitors to your site see. Users can even tinker with the client, adding or removing code as they wish, since it all exists on their machine when they visit your website. Most users won't do this, but keep it in mind.
+A website is made up of a **client** and **server**, and the server is further made up of the **host** and the **backend.** I'm going to cheat a little and make up my own terms for this, since "server" can refer to like two or three different things and I don't want to have to explain that every time.
+- When I talk about the *body* of the site, I mean everything that appears directly in the browser. This is your text, images, and any code that runs on the user's end.
+- When I talk about the *heart* of the site, I mean all the heavy lifting done by the server to actually "serve" content to the user.
+- When I talk about the *soul* of the site, I mean any additional code or scripting that runs on the server even if no users are visiting it.
 
-The **server** is everything that stays on your own machine. If you want anything the user does to be saved when they close the page, or if you want any code that users *can't* change, then it has to be here. The server is also responsible for "serving" the client code to the internet, delivering it to people who visit your website.
+Users can tinker with the client, adding or removing code as they wish, since it all exists on their machine when they visit your website. Most users won't do this, but keep it in mind. _(Move this to a better place)_
 
 When you start making a website, you can start from either end. If you start from the client, or "front end", you'll begin by designing the look and feel of your website. Images, text, buttons, and the way they're laid out on the page. It won't be "live" until you set up a server to host it on, but you can always do that later.
 
 If you start from the server, or "back end", you'll begin by getting your computer connected to the real internet, where other people can see your work. 
-
-TODO: find a way to re-word this as being three parts instead of two. The server host and the server script definitely need separate sections.
